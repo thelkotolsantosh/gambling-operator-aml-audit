@@ -1,0 +1,33 @@
+{
+  "audit_type": "Synthetic gambling operator AML monitoring review",
+  "data_scope": {
+    "customers": 800,
+    "transactions": 16007,
+    "settled_transactions": 14706
+  },
+  "alerts": 1586,
+  "customers_with_alerts": 800,
+  "risk_level_counts": {
+    "MEDIUM": 459,
+    "LOW": 232,
+    "HIGH": 103,
+    "CRITICAL": 6
+  },
+  "rule_counts": {
+    "SHARED_DEVICE": 800,
+    "UNUSUAL_DEPOSIT": 367,
+    "KYC_INCOMPLETE": 188,
+    "HIGH_RISK_CUSTOMER_COUNTRY": 154,
+    "DORMANT_REACTIVATION": 46,
+    "RAPID_DEPOSIT_WITHDRAWAL": 26,
+    "LARGE_DEPOSIT": 3,
+    "POSSIBLE_STRUCTURING": 1,
+    "LARGE_WITHDRAWAL": 1
+  },
+  "limitations": [
+    "All records are synthetic and are not evidence of real customer conduct.",
+    "Rules are illustrative and require jurisdiction-specific legal and compliance approval.",
+    "A rule hit is an investigative lead, not proof of money laundering.",
+    "No automated SAR/STR filing or customer action is performed."
+  ]
+}
