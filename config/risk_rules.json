@@ -1,0 +1,37 @@
+{
+  "thresholds": {
+    "large_deposit": 5000,
+    "large_withdrawal": 5000,
+    "rapid_movement_hours": 24,
+    "rapid_movement_ratio": 0.8,
+    "structuring_window_hours": 24,
+    "structuring_min_transactions": 4,
+    "structuring_amount_min": 800,
+    "structuring_amount_max": 2499.99,
+    "high_velocity_24h": 8,
+    "high_risk_countries": [
+      "XX",
+      "YY",
+      "ZZ"
+    ],
+    "dormant_days": 90,
+    "unusual_deposit_multiplier": 3.0
+  },
+  "weights": {
+    "large_deposit": 15,
+    "large_withdrawal": 12,
+    "rapid_movement": 25,
+    "possible_structuring": 20,
+    "high_risk_country": 25,
+    "high_velocity": 15,
+    "kyc_incomplete": 20,
+    "shared_device": 15,
+    "dormant_reactivation": 12,
+    "unusual_deposit": 10
+  },
+  "risk_bands": {
+    "low_max": 24,
+    "medium_max": 49,
+    "high_max": 74
+  }
+}
